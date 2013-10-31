@@ -1,0 +1,46 @@
+{
+  "name": "grunt-qunit-notifier",
+  "description": "Grunt plugin for qunit_notifier.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tiveron/grunt-qunit-notifier",
+  "author": {
+    "name": "Thiago Tiveron",
+    "email": "thiagotf9@gmail.com",
+    "url": "http://thiagotiveron.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tiveron/grunt-qunit-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiveron/grunt-qunit-notifier/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tiveron/grunt-qunit-notifier/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+        "qunit_notifier": ">= 0.1.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
